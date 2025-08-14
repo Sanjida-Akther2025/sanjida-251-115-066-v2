@@ -68,3 +68,32 @@ int main()
     return 0 ;
 }
 ```
+solution 1
+```c
+#include<stdio.h>
+int main()
+{
+    int A,B,sum=0;
+    scanf("%d %d",&A,&B);
+    sum=A+B;
+    printf("%d",sum);
+    return 0;
+
+}
+```
+solution 5
+```c
+#include<stdio.h>
+#define pi 3.14159
+int main()
+{
+    float r,c,d;
+    scanf("%f",&r);
+     c=2*pi*r;
+     d=2*r;
+    printf("%.5f", c/d);
+
+    return 0;
+
+}
+```
